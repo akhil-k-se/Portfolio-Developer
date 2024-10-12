@@ -24,7 +24,7 @@ const Hero = () => {
       e.stopPropagation();
     };
   
-    const canvasElement = document.querySelector('.canvas-container');
+    const canvasElement = document.querySelector('#canvas-container');
   
     if (canvasElement) {
       canvasElement.addEventListener('touchmove', handleTouchMove, { passive: true });
@@ -50,8 +50,8 @@ const Hero = () => {
           Building Products and Brands
         </p>
       </div>
-      <div className="w-full h-full absolute pointer-events-none inset-0">
-        <Canvas className="w-full h-full pointer-events-none">
+      <div className="w-full h-full absolute inset-0">
+        <Canvas id="canvas-container" className="w-full h-full ">
           <OrbitControls enableRotate={false} enablePan enableZoom={false}/>
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
