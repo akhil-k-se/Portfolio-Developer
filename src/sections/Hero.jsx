@@ -33,9 +33,9 @@ const Hero = () => {
           Building Products and Brands
         </p>
       </div>
-      <div className="w-full h-full absolute pointer-events-none inset-0 overflow-y-auto">
+      <div className="w-full h-full absolute pointer-events-none inset-0">
         <Canvas className="w-full h-full pointer-events-none">
-          <OrbitControls enableRotate={!isMobile} enableZoom={false} enablePan={false}/>
+          <OrbitControls enableRotate={false} enablePan enableZoom={false}/>
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
             <HeroCamera isMobile={isMobile}>
