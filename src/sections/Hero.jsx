@@ -1,6 +1,6 @@
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect } from "react";
 import HackerRoom from "../components/HackerRoom";
 import CanvasLoader from "../components/CanvasLoader";
 import { useControls } from "leva";
@@ -18,7 +18,24 @@ const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 768 });
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
-
+  useEffect(() => {
+    const handleTouchMove = (e) => {
+      // Allow scrolling when touching the canvas
+      e.stopPropagation();
+    };
+  
+    const canvasElement = document.querySelector('.canvas-container');
+  
+    if (canvasElement) {
+      canvasElement.addEventListener('touchmove', handleTouchMove, { passive: true });
+    }
+  
+    return () => {
+      if (canvasElement) {
+        canvasElement.removeEventListener('touchmove', handleTouchMove);
+      }
+    };
+  }, []);
   
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
