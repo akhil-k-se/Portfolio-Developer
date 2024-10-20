@@ -84,14 +84,24 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "JavaScript",
+        path: "/assets/javascript-icon.svg",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "MongoDb",
+        path: "/assets/mongodb-icon.svg",
       },
+      {
+        id: 5,
+        name: "NodeJs",
+        path: "/assets/nodejs-icon.svg",
+      },
+      {
+        id: 6,
+        name: "ExpressJs",
+        path: "/assets/expressjs-icon.svg",
+      }
     ],
   },
   {
