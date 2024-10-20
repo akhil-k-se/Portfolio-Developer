@@ -121,8 +121,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "HTML",
+        path: "/assets/html.svg",
       },
       {
         id: 2,
@@ -131,13 +131,13 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "JavaScript",
+        path: "/assets/javascript-icon.svg",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "GSAP",
+        path: "/assets/gsap.svg",
       },
     ],
   },
@@ -244,13 +244,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "JavaScript",
+        path: "/assets/javascript-icon.svg",
       },
     ],
   }
