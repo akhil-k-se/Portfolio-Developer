@@ -101,6 +101,11 @@ export const myProjects = [
         id: 6,
         name: "ExpressJs",
         path: "/assets/expressjs-icon.svg",
+      },
+      {
+        id: 7,
+        name: "GSAP",
+        path: "/assets/gsap.svg",
       }
     ],
   },
