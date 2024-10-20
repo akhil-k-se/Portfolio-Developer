@@ -15,6 +15,9 @@ const Footer = () => {
             <div className='social-icon'>
                 <a href='https://www.instagram.com/akh_il.k/' target="_blank" className='social-icon'><img src='/assets/instagram.svg' alt='instagram' className='w-1/2 h-1/2' /></a>
             </div>
+            <div className='social-icon'>
+                <a href='https://www.linkedin.com/in/akhil-kumar-se/' target="_blank" className='social-icon'><img src='/assets/linkedin.svg' alt='instagram' className='w-1/2 h-1/2' /></a>
+            </div>
         </div>
         <p className='text-white-500'>© 2024 Akhil, All Rights Reserved</p>
     </section>

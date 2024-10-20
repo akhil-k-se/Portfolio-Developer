@@ -308,7 +308,7 @@ export const workExperiences = [
     pos: "Made projects using MERN stack",
     duration: "2023 - Present",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+      "I work with the MERN stack (MongoDB, Express, React, Node.js) to build full-stack web applications, handling both frontend and backend development efficiently.",
     icon: "/assets/MERN.svg",
     animation: "clapping",
   },
