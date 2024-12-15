@@ -118,6 +118,7 @@ export const myProjects = [
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
+
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
       boxShadow: "0px 0px 60px 0px #2F6DB54D",
@@ -146,45 +147,7 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //   title: "CarePulse - Health Management System",
-  //   desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-  //   subdesc:
-  //     "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-  //   href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-  //   texture: "/textures/project/project3.mp4",
-  //   logo: "/assets/project-logo3.png",
-  //   logoStyle: {
-  //     backgroundColor: "#60f5a1",
-  //     background:
-  //       "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-  //     border: "0.2px solid rgba(208, 213, 221, 1)",
-  //     boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
-  //   },
-  //   spotlight: "/assets/spotlight3.png",
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: "React.js",
-  //       path: "/assets/react.svg",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "TailwindCSS",
-  //       path: "assets/tailwindcss.png",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "TypeScript",
-  //       path: "/assets/typescript.png",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "Framer Motion",
-  //       path: "/assets/framer.png",
-  //     },
-  //   ],
-  // },
+ 
   // {
   //   title: "Horizon - Online Banking Platform",
   //   desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
@@ -222,6 +185,43 @@ export const myProjects = [
   //     },
   //   ],
   // },
+  {
+    title: "Tracker",
+    desc: "Tracker is a real-time activity monitoring application that showcases dynamic updates and seamless interactions. Built using Node.js, Express.js, and Socket.io, the platform allows users to monitor events and interactions in real-time through an intuitive interface. The use of EJS enables server-side rendering for fast and efficient page updates.",
+    subdesc:
+      "Tracker enhances real-time engagement with live updates powered by Socket.io and an elegant, responsive design rendered using EJS templates.",
+    href: "https://tracker-btc4.onrender.com/",
+    texture: "/textures/project/project6.mp4",
+    logo: "/assets/project-logo6.svg",
+    logoStyle: {
+      backgroundColor: "#003300",
+      border: "0.2px solid #282828",
+      boxShadow: "0px 0px 60px 0px #6A1B9A4D",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "Node.js",
+        path: "/assets/nodejs-icon.svg",
+      },
+      {
+        id: 2,
+        name: "Express.js",
+        path: "/assets/expressjs-icon.svg",
+      },
+      {
+        id: 3,
+        name: "Socket.io",
+        path: "/assets/socket-io.svg",
+      },
+      {
+        id: 4,
+        name: "EJS",
+        path: "/assets/ejs.svg",
+      },
+    ],
+  },  
   {
     title: "BrainWave - About AI",
     desc: "Brainwave is an AI-focused website that explores the incredible potential of artificial intelligence and what it can achieve. The site provides an immersive experience, guiding users through various AI capabilities—from machine learning to neural networks and automation—showcasing the transformative power of AI across industries.",

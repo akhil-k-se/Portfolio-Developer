@@ -3,7 +3,7 @@ import React from 'react'
 
 const CanvasLoader = () => {
 
-    const {progress} = useProgress();
+  const {progress} = useProgress();
   return (
     <Html as='div' center className='flex justify-center items-center flex-col'>
         <span className='canvas-loader'/>
@@ -14,4 +14,4 @@ const CanvasLoader = () => {
   )
 }
 
-export default CanvasLoader
+export default CanvasLoader;

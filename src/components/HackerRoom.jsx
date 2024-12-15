@@ -9,6 +9,10 @@ import { useGLTF, useTexture } from '@react-three/drei';
 const HackerRoom=(props)=> {
   const { nodes, materials } = useGLTF('/models/hacker-room.glb');
 
+  // if (!nodes || !materials) {
+  //   return <group {...props} />;
+  // }
+
   const monitortxt = useTexture('textures/desk/monitor.png');
   const screenTxt = useTexture('textures/desk/name.png');
 
@@ -23,7 +27,6 @@ const HackerRoom=(props)=> {
       <mesh geometry={nodes.table_table_mat_0_1.geometry} material={materials.table_mat} />
       <mesh geometry={nodes.table_table_mat_0_2.geometry} material={materials.computer_mat}>
         <meshMatcapMaterial map={monitortxt} />
-        
       </mesh>
       <mesh geometry={nodes.table_table_mat_0_3.geometry} material={materials.server_mat} />
       <mesh geometry={nodes.table_table_mat_0_4.geometry} material={materials.vhsPlayer_mat} />

@@ -35,7 +35,7 @@ const Contact = () => {
       )
       .then(
         () => {
-            alert("Your Mail Send Successfully !");
+          alert("Your Mail Send Successfully !");
           setLoading(false);
           setTimeout(() => {
             setForm({
