@@ -148,43 +148,58 @@ export const myProjects = [
     ],
   },
  
-  // {
-  //   title: "Horizon - Online Banking Platform",
-  //   desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-  //   subdesc:
-  //     "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-  //   href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-  //   texture: "/textures/project/project4.mp4",
-  //   logo: "/assets/project-logo4.png",
-  //   logoStyle: {
-  //     backgroundColor: "#0E1F38",
-  //     border: "0.2px solid #0E2D58",
-  //     boxShadow: "0px 0px 60px 0px #2F67B64D",
-  //   },
-  //   spotlight: "/assets/spotlight4.png",
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: "React.js",
-  //       path: "/assets/react.svg",
-  //     },
-  //     {
-  //       id: 2,
-  //       name: "TailwindCSS",
-  //       path: "assets/tailwindcss.png",
-  //     },
-  //     {
-  //       id: 3,
-  //       name: "TypeScript",
-  //       path: "/assets/typescript.png",
-  //     },
-  //     {
-  //       id: 4,
-  //       name: "Framer Motion",
-  //       path: "/assets/framer.png",
-  //     },
-  //   ],
-  // },
+  {
+    title: "CampusMate - Hostel Management System",
+    desc: "CampusMate is a smart hostel management system that leverages QR codes to simplify and secure processes such as room bookings, gate passes, and mess entry. Designed for students, wardens, and security staff, it replaces outdated manual methods with a digital platform for efficient, real-time management and enhanced campus operations.",
+    subdesc:
+      "CampusMate: QR-based hostel management for seamless bookings, gate passes, and mess entry.",
+    href: "https://stackmasters-campusmate.vercel.app/",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/project-logo4.png",
+    logoStyle: {
+      backgroundColor: "#0E1F38",
+      border: "0.2px solid #0E2D58",
+      boxShadow: "0px 0px 60px 0px #2F67B64D",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Javascript",
+        path: "/assets/javascript-icon.svg",
+      },
+      {
+        id: 4,
+        name: "GSAP",
+        path: "/assets/gsap.svg",
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/mongodb-icon.svg",
+      },
+      {
+        id: 6,
+        name: "NodeJS",
+        path: "/assets/nodejs-icon.svg",
+      },
+      {
+        id: 7,
+        name: "ExpressJs",
+        path: "/assets/expressjs-icon.svg",
+      },
+    ],
+  },
   {
     title: "Tracker",
     desc: "Tracker is a real-time activity monitoring application that showcases dynamic updates and seamless interactions. Built using Node.js, Express.js, and Socket.io, the platform allows users to monitor events and interactions in real-time through an intuitive interface. The use of EJS enables server-side rendering for fast and efficient page updates.",
@@ -196,7 +211,7 @@ export const myProjects = [
     logoStyle: {
       backgroundColor: "#003300",
       border: "0.2px solid #282828",
-      boxShadow: "0px 0px 60px 0px #6A1B9A4D",
+      boxShadow: "0px 0px 60px 0px #003300",
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
@@ -224,7 +239,7 @@ export const myProjects = [
   },  
   {
     title: "BrainWave - About AI",
-    desc: "Brainwave is an AI-focused website that explores the incredible potential of artificial intelligence and what it can achieve. The site provides an immersive experience, guiding users through various AI capabilities—from machine learning to neural networks and automation—showcasing the transformative power of AI across industries.",
+    desc: "Brainwave is an AI-focused website that explores the incredible potential of artificial intelligence and what it can achieve.The site provides an immersive experience, guiding users through various AI capabilities—from machine learning to neural networks and automation—showcasing the transformative power of AI across industries.",
     subdesc:
       "With a visually stunning design, Brainwave leverages scroll-triggered parallax effects, a smooth scrolling experience, and the Bentogrid layout to present content dynamically. As users scroll, interactive elements animate seamlessly, offering a deep dive into AI topics while keeping the user engaged with a modern, sleek design. The site balances cutting-edge technology with artistic flair, making it both educational and visually captivating, perfect for anyone curious about the future of AI.",
     href: "https://brrainwave.netlify.app/",
@@ -302,14 +317,35 @@ export const workExperiences = [
     icon: "/assets/react.svg",
     animation: "victory",
   },
-  {
-    id: 2,
-    name: "MERN",
-    pos: "Made projects using MERN stack",
-    duration: "2023 - Present",
-    title:
-      "I work with the MERN stack (MongoDB, Express, React, Node.js) to build full-stack web applications, handling both frontend and backend development efficiently.",
-    icon: "/assets/MERN.svg",
-    animation: "clapping",
-  },
+    {
+      id: 2,
+      name: "MERN",
+      pos: "Made projects using MERN stack",
+      duration: "2023 - Present",
+      title:
+        "I work with the MERN stack (MongoDB, Express, React, Node.js) to build full-stack web applications, handling both frontend and backend development efficiently.",
+      icon: "/assets/MERN.svg",
+      animation: "clapping",
+    },
+    {
+      id: 3,
+      name: "Three.js",
+      pos: "Developed 3D web experiences with Three.js",
+      duration: "2024 - Present",
+      title:
+        "I create interactive 3D graphics and immersive web experiences using Three.js, bringing creativity and functionality to the web.",
+      icon: "/assets/three-js-icon.svg",
+      animation: "victory",
+    },
+    {
+      id: 4,
+      name: "GSAP",
+      pos: "Crafted animations with GSAP",
+      duration: "2024 - Present",
+      title:
+        "I design smooth, high-performance animations and transitions for web applications using GSAP, enhancing user engagement and interactivity.",
+      icon: "/assets/gsap.svg",
+      animation: "clapping",
+    }
+  
 ];
