@@ -118,7 +118,6 @@ export const myProjects = [
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
-
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
       boxShadow: "0px 0px 60px 0px #2F6DB54D",
@@ -147,7 +146,7 @@ export const myProjects = [
       },
     ],
   },
- 
+
   {
     title: "CampusMate - Hostel Management System",
     desc: "CampusMate is a smart hostel management system that leverages QR codes to simplify and secure processes such as room bookings, gate passes, and mess entry. Designed for students, wardens, and security staff, it replaces outdated manual methods with a digital platform for efficient, real-time management and enhanced campus operations.",
@@ -236,7 +235,7 @@ export const myProjects = [
         path: "/assets/ejs.svg",
       },
     ],
-  },  
+  },
   {
     title: "BrainWave - About AI",
     desc: "Brainwave is an AI-focused website that explores the incredible potential of artificial intelligence and what it can achieve.The site provides an immersive experience, guiding users through various AI capabilities—from machine learning to neural networks and automation—showcasing the transformative power of AI across industries.",
@@ -267,6 +266,43 @@ export const myProjects = [
         name: "JavaScript",
         path: "/assets/javascript-icon.svg",
       },
+    ],
+  },
+  {
+    title: "Zentry - Gaming",
+    desc: "Zentry is a unified play layer that bridges gaming and offers an immersive experience that transforms everyday life into an epic MMORPG. Enter the MetaGame layer Unleash the Play Economy",
+    subdesc:
+      "With a visually stunning design, Zentry leverages scroll-triggered parallax effects, smooth scrolling, and dynamic layouts to present content interactively. As users navigate, elements animate seamlessly, providing a deep dive into Gamiong while maintaining engagement through a modern, sleek design. The site balances cutting-edge technology with artistic flair, making it both educational and visually captivating, ideal for anyone curious about the future of Gaming.",
+    href: "https://zentry-gaming-ivory.vercel.app/",
+    texture: "/textures/project/Zentry.mp4",
+    logo: "/assets/zentry-logo.png",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/javascript-icon.svg",
+      },
+      {
+        id:4,
+        name:"ThreeJs",
+        path:"/assets/three-js-icon.svg",
+      }
     ],
   },
 ];
@@ -317,35 +353,34 @@ export const workExperiences = [
     icon: "/assets/react.svg",
     animation: "victory",
   },
-    {
-      id: 2,
-      name: "MERN",
-      pos: "Made projects using MERN stack",
-      duration: "2023 - Present",
-      title:
-        "I work with the MERN stack (MongoDB, Express, React, Node.js) to build full-stack web applications, handling both frontend and backend development efficiently.",
-      icon: "/assets/MERN.svg",
-      animation: "clapping",
-    },
-    {
-      id: 3,
-      name: "Three.js",
-      pos: "Developed 3D web experiences with Three.js",
-      duration: "2024 - Present",
-      title:
-        "I create interactive 3D graphics and immersive web experiences using Three.js, bringing creativity and functionality to the web.",
-      icon: "/assets/three-js-icon.svg",
-      animation: "victory",
-    },
-    {
-      id: 4,
-      name: "GSAP",
-      pos: "Crafted animations with GSAP",
-      duration: "2024 - Present",
-      title:
-        "I design smooth, high-performance animations and transitions for web applications using GSAP, enhancing user engagement and interactivity.",
-      icon: "/assets/gsap.svg",
-      animation: "clapping",
-    }
-  
+  {
+    id: 2,
+    name: "MERN",
+    pos: "Made projects using MERN stack",
+    duration: "2023 - Present",
+    title:
+      "I work with the MERN stack (MongoDB, Express, React, Node.js) to build full-stack web applications, handling both frontend and backend development efficiently.",
+    icon: "/assets/MERN.svg",
+    animation: "clapping",
+  },
+  {
+    id: 3,
+    name: "Three.js",
+    pos: "Developed 3D web experiences with Three.js",
+    duration: "2024 - Present",
+    title:
+      "I create interactive 3D graphics and immersive web experiences using Three.js, bringing creativity and functionality to the web.",
+    icon: "/assets/three-js-icon.svg",
+    animation: "victory",
+  },
+  {
+    id: 4,
+    name: "GSAP",
+    pos: "Crafted animations with GSAP",
+    duration: "2024 - Present",
+    title:
+      "I design smooth, high-performance animations and transitions for web applications using GSAP, enhancing user engagement and interactivity.",
+    icon: "/assets/gsap.svg",
+    animation: "clapping",
+  },
 ];
