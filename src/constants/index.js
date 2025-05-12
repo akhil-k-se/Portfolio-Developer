@@ -109,43 +109,43 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: "OnScroll Frames",
-    desc: "OnScrollFrames is an interactive website that provides a unique visual experience, featuring smooth animations triggered by user scrolling. As users navigate through the page, various elements come to life with dynamic transitions and frames that shift smoothly in sync with the scroll. The site leverages cutting-edge animations, likely using libraries such as GSAP, to create an immersive and engaging experience for visitors.",
-    subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://onscrollframes.netlify.app/",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "HTML",
-        path: "/assets/html.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/javascript-icon.svg",
-      },
-      {
-        id: 4,
-        name: "GSAP",
-        path: "/assets/gsap.svg",
-      },
-    ],
-  },
+  // {
+  //   title: "OnScroll Frames",
+  //   desc: "OnScrollFrames is an interactive website that provides a unique visual experience, featuring smooth animations triggered by user scrolling. As users navigate through the page, various elements come to life with dynamic transitions and frames that shift smoothly in sync with the scroll. The site leverages cutting-edge animations, likely using libraries such as GSAP, to create an immersive and engaging experience for visitors.",
+  //   subdesc:
+  //     "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
+  //   href: "https://onscrollframes.netlify.app/",
+  //   texture: "/textures/project/project2.mp4",
+  //   logo: "/assets/project-logo2.png",
+  //   logoStyle: {
+  //     backgroundColor: "#13202F",
+  //     border: "0.2px solid #17293E",
+  //     boxShadow: "0px 0px 60px 0px #2F6DB54D",
+  //   },
+  //   spotlight: "/assets/spotlight2.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "HTML",
+  //       path: "/assets/html.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       path: "assets/tailwindcss.png",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "JavaScript",
+  //       path: "/assets/javascript-icon.svg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "GSAP",
+  //       path: "/assets/gsap.svg",
+  //     },
+  //   ],
+  // },
 
   {
     title: "CampusMate - Hostel Management System",
