@@ -57,58 +57,6 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
-  {
-    title: "DreamDwell- Real Estate Landing Page",
-    desc: "DreamDwell is a modern real estate platform designed to connect buyers and sellers with their dream properties. The website features an intuitive interface where users can explore property listings, discover in-depth resources through our Education Center, and sign up as either a buyer or seller. With a focus on providing seamless navigation, the platform is enhanced by dynamic animations and smooth transitions, ensuring a user-friendly experience.",
-    subdesc:
-      "The website showcases stunning visuals, including animated cards and interactive elements that guide users through property options. Whether you're looking to buy, sell, or rent, DreamDwell simplifies the process, offering a comprehensive solution for all your real estate needs.",
-    href: "https://dreamdweell.netlify.app/",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
-    logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
-    },
-    spotlight: "/assets/spotlight1.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/javascript-icon.svg",
-      },
-      {
-        id: 4,
-        name: "MongoDb",
-        path: "/assets/mongodb-icon.svg",
-      },
-      {
-        id: 5,
-        name: "NodeJs",
-        path: "/assets/nodejs-icon.svg",
-      },
-      {
-        id: 6,
-        name: "ExpressJs",
-        path: "/assets/expressjs-icon.svg",
-      },
-      {
-        id: 7,
-        name: "GSAP",
-        path: "/assets/gsap.svg",
-      },
-    ],
-  },
   // {
   //   title: "OnScroll Frames",
   //   desc: "OnScrollFrames is an interactive website that provides a unique visual experience, featuring smooth animations triggered by user scrolling. As users navigate through the page, various elements come to life with dynamic transitions and frames that shift smoothly in sync with the scroll. The site leverages cutting-edge animations, likely using libraries such as GSAP, to create an immersive and engaging experience for visitors.",
@@ -146,7 +94,68 @@ export const myProjects = [
   //     },
   //   ],
   // },
-
+  {
+    title: "CypherShare - Decentralized File Sharing",
+    desc: "CypherShare is a decentralized file-sharing platform that lets users upload files which are stored securely on other users’ PCs. Even if devices go offline, files are accessible via IPFS and AES-256 encrypted for security. It empowers peer-to-peer storage and retrieval with real-time synchronization using a desktop agent and a smart backend.",
+    subdesc:
+      "CypherShare: Secure, encrypted, decentralized file sharing with IPFS & peer-to-peer storage.",
+    href: "https://cyyphershare.vercel.app/", // Change this to your actual frontend link
+    texture: "/textures/project/cypherShare.mp4", // Change path if video file is named differently
+    logo: "/assets/project-logo7.png", // Change path if you have a custom logo
+    logoStyle: {
+      backgroundColor: "white",
+      border: "0.2px solid #0C1B2E",
+      boxShadow: "0px 0px 60px 0px #3778C24D",
+    },
+    spotlight: "/assets/spotlight5.png", // Optional: replace with actual spotlight image
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "/assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "Javascript",
+        path: "/assets/javascript-icon.svg",
+      },
+      {
+        id: 4,
+        name: "Electron.js",
+        path: "/assets/electronjs.svg", // Add or create if needed
+      },
+      {
+        id: 5,
+        name: "MongoDB",
+        path: "/assets/mongodb-icon.svg",
+      },
+      {
+        id: 6,
+        name: "NodeJS",
+        path: "/assets/nodejs-icon.svg",
+      },
+      {
+        id: 7,
+        name: "ExpressJs",
+        path: "/assets/expressjs-icon.svg",
+      },
+      {
+        id: 8,
+        name: "IPFS",
+        path: "/assets/ipfs.svg", // Add icon file if it doesn't exist yet
+      },
+      {
+        id: 9,
+        name: "AES-256 Encryption",
+        path: "/assets/aes.svg", // Optional: create or use generic security icon
+      },
+    ],
+  },
   {
     title: "CampusMate - Hostel Management System",
     desc: "CampusMate is a smart hostel management system that leverages QR codes to simplify and secure processes such as room bookings, gate passes, and mess entry. Designed for students, wardens, and security staff, it replaces outdated manual methods with a digital platform for efficient, real-time management and enhanced campus operations.",
@@ -196,6 +205,58 @@ export const myProjects = [
         id: 7,
         name: "ExpressJs",
         path: "/assets/expressjs-icon.svg",
+      },
+    ],
+  },
+  {
+    title: "DreamDwell- Real Estate Landing Page",
+    desc: "DreamDwell is a modern real estate platform designed to connect buyers and sellers with their dream properties. The website features an intuitive interface where users can explore property listings, discover in-depth resources through our Education Center, and sign up as either a buyer or seller. With a focus on providing seamless navigation, the platform is enhanced by dynamic animations and smooth transitions, ensuring a user-friendly experience.",
+    subdesc:
+      "The website showcases stunning visuals, including animated cards and interactive elements that guide users through property options. Whether you're looking to buy, sell, or rent, DreamDwell simplifies the process, offering a comprehensive solution for all your real estate needs.",
+    href: "https://dreamdweell.netlify.app/",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/project-logo1.png",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "TailwindCSS",
+        path: "assets/tailwindcss.png",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/javascript-icon.svg",
+      },
+      {
+        id: 4,
+        name: "MongoDb",
+        path: "/assets/mongodb-icon.svg",
+      },
+      {
+        id: 5,
+        name: "NodeJs",
+        path: "/assets/nodejs-icon.svg",
+      },
+      {
+        id: 6,
+        name: "ExpressJs",
+        path: "/assets/expressjs-icon.svg",
+      },
+      {
+        id: 7,
+        name: "GSAP",
+        path: "/assets/gsap.svg",
       },
     ],
   },
@@ -299,10 +360,10 @@ export const myProjects = [
         path: "/assets/javascript-icon.svg",
       },
       {
-        id:4,
-        name:"ThreeJs",
-        path:"/assets/three-js-icon.svg",
-      }
+        id: 4,
+        name: "ThreeJs",
+        path: "/assets/three-js-icon.svg",
+      },
     ],
   },
 ];
