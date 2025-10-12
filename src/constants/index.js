@@ -370,16 +370,16 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 };
 
 export const workExperiences = [
-  {
-    id: 1,
-    name: "REACTJS",
-    pos: "Worked on React,its frameworks and its libraries",
-    duration: "2024 - Present",
-    title:
-      "I have worked with React, Next.js, Three.js, GSAP, and Framer Motion to build dynamic web apps, create 3D experiences, and add smooth animations.",
-    icon: "/assets/react.svg",
-    animation: "victory",
-  },
+  // {
+  //   id: 1,
+  //   name: "REACTJS",
+  //   pos: "Worked on React,its frameworks and its libraries",
+  //   duration: "2024 - Present",
+  //   title:
+  //     "I have worked with React, Next.js, Three.js, GSAP, and Framer Motion to build dynamic web apps, create 3D experiences, and add smooth animations.",
+  //   icon: "/assets/react.svg",
+  //   animation: "victory",
+  // },
   {
     id: 2,
     name: "MERN",
@@ -420,4 +420,14 @@ export const workExperiences = [
     icon: "/assets/electronjs.svg",
     animation: "victory",
   },
+    {
+  id: 6,
+  name: "Bajaj Finserv Health Limited",
+  pos: "Full Stack Developer Intern",
+  duration: "Aug 2025 - Present",
+  title:
+    "Contributing to the design and development of core product modules, improving user experience, performance, and system reliability through scalable and maintainable solutions.",
+  icon: "/assets/bfhl.jpg",
+  animation: "victory",
+}
 ];
